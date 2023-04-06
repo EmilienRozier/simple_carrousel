@@ -1,0 +1,39 @@
+#one{
+    width: 100%;
+    height: 600px;
+    background-image: url('https://images.squarespace-cdn.com/content/v1/561d7296e4b0e681f07991b8/1680096939037-4VN9RZG1HAXU2EK67ZT7/image-asset.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center top -50px;
+}
+
+#two{
+    width: 100%;
+    height: 600px;
+    background-image: url('https://images.squarespace-cdn.com/content/v1/561d7296e4b0e681f07991b8/1680096725101-EXQ7CUPCN9SBI6G18I0K/image-asset.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center top -150px;
+}
+
+#tree{
+    width: 100%;
+    height: 600px;
+    background-image: url('https://images.squarespace-cdn.com/content/v1/561d7296e4b0e681f07991b8/1678311086418-Z3EP78H05EO3BGJH3BIA/image-asset.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center top;
+}
+
+article {
+    display: none;
+}
+
+article.active{
+    display: block;
+}
+
+.control {
+    display: flex;
+    justify-content: center;
+}
